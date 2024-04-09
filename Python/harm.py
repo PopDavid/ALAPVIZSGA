@@ -7,7 +7,7 @@ print(f'A listában lévő elemek száma: {len(myList)}')
 
 legnagyobb_elem = max(myList, key=lambda x: x.xxxxxxxxxxxx) # x. után az kell, amire szeretnél max-ot keresni pl: x.ar
 
-legnagyobb_elem = min(myList, key=lambda x: x.xxxxxxxxxxxx) # x. után az kell, amire szeretnél min-t keresni pl: x.ar
+legkisebb_elem = min(myList, key=lambda x: x.xxxxxxxxxxxx) # x. után az kell, amire szeretnél min-t keresni pl: x.ar
 
 xxxxxxxxx_elemek_osszeadasa = sum(i.xxxxxxxxxxxx for i in myList if xxxxxxxxxxxxx_feltetel(i.xxxxxxxxxxxx)) 
 # Ha nincs feltétel akkor töröld ki: if xxxxxxxxxxxxx_feltetel(i.xxxxxxxxxxxx)
@@ -16,8 +16,6 @@ def xxxxxxxxxxxxx_feltetel(ar): # xxxxxxxxxxxxx helyére írd be a feladat szám
     if ar > 5:
         return True
     return False
-
-
 
 xxxxxxxx_felteteles_kereses_count = 0
 
